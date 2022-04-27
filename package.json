@@ -11,13 +11,21 @@
   "author": "joh martinez",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "^4.18.0",
     "mysql2": "^2.3.3",
     "pug": "^3.0.2",
     "sequelize": "^6.19.0"
   },
   "devDependencies": {
-    "dotenv": "^16.0.0",
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfreddyms/agencia-deployment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jfreddyms/agencia-deployment/issues"
+  },
+  "homepage": "https://github.com/jfreddyms/agencia-deployment#readme"
 }
