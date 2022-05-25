@@ -30,8 +30,7 @@ app.use((req, res, next) => {
     res.locals.actualYear = year.getFullYear();// la variable que pasemos se llama actualYear
 
     res.locals.nombreSitio = 'Agencia de Viajes'
-
-
+    
     next() // para que se vaya a la siguiente linea (middleware)
 });
 
